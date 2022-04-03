@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="styleSheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="modal-container">
+      <div class="overlay modal-trigger"></div>
+
+      <div
+        class="modal"
+        role="dialog"
+        aria-labelledby="modalTitle"
+        aria-describedby="dialogDesc"
+      >
+        <div class="modal-top">
+          <div class="top-pos">
+            <h1>S'inscrire</h1>
+            <p>C’est rapide et facile.</p>
+          </div>
+          <button aria-label="close modal modal-trigger" class="close-modal modal-trigger">
+            X
+          </button>
+        </div>
+        <hr />
+        <form class="form-modal">
+          <div class="div1">
+            <input type="text" placeholder="Prénom" />
+            <input type="text" placeholder="Nom Famille" />
+          </div>
+          <div class="div2">
+            <input type="text" placeholder="Numéro du téléphone ou email" />
+            <input type="password" placeholder="Mot de passe" />
+          </div>
+          <div class="div3">
+            <label for="start">Date de naissance </label>
+            <input
+              type="date"
+              id="start"
+              name="trip-start"
+              value="2020-04-03"
+              min="1990-01-01"
+              max="2022-04-03"
+            />
+          </div>
+          <div class="div4">
+            <label class="label">Genre </label>
+            <div class="radio">
+              <div class="rad1">
+                <label>Homme</label>
+                <input type="radio" name="sex" />
+              </div>
+              <div class="rad1">
+                <label>Femme</label>
+                <input type="radio" name="sex" />
+              </div>
+              <div class="rad1">
+                <label>Autres ?</label>
+                <input type="radio" name="sex" />
+              </div>
+            </div>
+          </div>
+          <div class="div5">
+            En appuyant sur S’inscrire, vous acceptez nos
+            <a href="#">Conditions générales</a>, notre
+            <a href="#"
+              >Politique d’utilisation des données et notre Politique
+              d’utilisation des cookies.</a
+            >
+            Vous recevrez peut-être des notifications par texto de notre part et
+            vous pouvez à tout moment vous désabonner.
+          </div>
+          <div class="butt"><button class="butThree">S'inscrire</button></div>
+        </form>
+      </div>
+    </div>
+    <section>
+      <div class="main">
+        <div class="left">
+          <h1>facebook</h1>
+          <p>
+            Avec Facebook, partagez et restez en contact avec votre entourage.
+          </p>
+        </div>
+        <div class="right">
+          <form class="login">
+            <input type="text" placeholder="Adresse mail ou numéro tel" />
+            <input type="password" placeholder="Mot de Passe" />
+            <button class="buttOne">Se Connecter</button>
+            <a href="#">Mot de passe oublié ?</a>
+            <hr />
+            <div class="buttTow modal-trigger">
+              Creer un nouveau compte
+            </div>
+          </form>
+          <br />
+          <div class="info">
+            <a href="#">Créer une Page</a> pour une célébrité, une marque ou une
+            entreprise.
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="all">
+        <ul class="top">
+          <li>Français (France)</li>
+          <li>العربية</li>
+          <li>English (US)</li>
+          <li>Italiano</li>
+          <li>Deutsch</li>
+          <li>Español</li>
+          <li>Русский</li>
+          <li>Português (Brasil)</li>
+          <li>हिन्दी</li>
+          <li>中文(简体)</li>
+          <li>日本語</li>
+          <li><button>+</button></li>
+        </ul>
+        <hr />
+        <div class="center">
+          S’inscrire &nbsp;&nbsp; Se connecter &nbsp;&nbsp; Messenger
+          &nbsp;&nbsp; Facebook Lite &nbsp;&nbsp; Watch &nbsp;&nbsp; Lieux
+          &nbsp;&nbsp; Jeux Marketplace &nbsp;&nbsp; FacebookPay &nbsp;&nbsp;
+          Oculus &nbsp;&nbsp; Portal &nbsp;&nbsp; Instagram &nbsp;&nbsp;
+          Bulletin &nbsp;&nbsp; Local &nbsp;&nbsp; Collectes de fonds Services
+          &nbsp;&nbsp; Centre d’information sur les élections &nbsp;&nbsp;
+          Groupes &nbsp;&nbsp; À propos &nbsp;&nbsp; Créer une publicité
+          &nbsp;&nbsp; Créer une Page &nbsp;&nbsp; Développeurs &nbsp;&nbsp;
+          Emplois &nbsp;&nbsp; Confidentialité &nbsp;&nbsp; Cookies &nbsp;&nbsp;
+          Choisir sa pub &nbsp;&nbsp; Conditions générales &nbsp;&nbsp; Aide
+          &nbsp;&nbsp; Paramètres &nbsp;&nbsp; Historique personnel
+        </div>
+      </div>
+      <br />
+      <span>Meta © 2022</span>
+      <br />
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
