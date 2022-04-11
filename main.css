@@ -39,7 +39,7 @@ body {
   width: 80%;
   max-width: 400px;
   min-width: 200px;
-  padding: 30px 50px 30px 30px;
+  padding: 30px 35px 30px 30px;
   background: #fff;
   border-radius: 5px;
   position: absolute;
@@ -172,7 +172,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin: 30px;
 }
 .main {
   display: flex;
@@ -330,4 +330,13 @@ span {
   color: rgb(43, 41, 41);
   opacity: 0.98;
   font-size: 12px;
+}
+
+@media screen and (max-width:700px){
+footer{display:none}
+.main{
+  flex-direction: column;}
+.main .left{
+  width:100%}
+
 }
